@@ -1,18 +1,15 @@
-import sys
 import requests
-from os import rename
-import math
 
 
 # to track the code on the git - click on the source control button
 
 # print(sys.version)
-print(sys.executable)
+# print(sys.executable)
 
 
-def greet(who_to_greet):
-    greeting = "Hello, {}".format(who_to_greet)
-    return greeting
+# def greet(who_to_greet):
+#     greeting = "Hello, {}".format(who_to_greet)
+#     return greeting
 
 
 r = requests.get("https://coreyms.com")
